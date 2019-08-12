@@ -45,3 +45,26 @@ vagrant up
 > It's done
 
 Use the html directory to build your project and access [localhost](http://localhost) to see the work
+
+## Vagrant Cheat Sheet
+
+Connects to virtual machine via SSH
+```
+vagrant ssh
+```
+
+Turn off the virtual machine
+```
+vagrant halt
+```
+
+Turn on the virtual machine
+```
+vagrant up
+```
+
+Deletes the virtual machine. Keep files in vagrant directory
+```
+vagrant destroy
+```
+
