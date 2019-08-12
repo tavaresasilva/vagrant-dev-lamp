@@ -37,6 +37,7 @@ LAMP (Linux, Apache, MySQL,PHP) is an archetypal model of web service stacks, na
 
 ```
 $ git clone https://github.com/tavaresasilva/vagrant-dev-lamp.git
+$ cd vagrant-dev-lamp
 $ vagrant up
 ```
 

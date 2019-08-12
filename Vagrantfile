@@ -54,21 +54,5 @@ Vagrant.configure("2") do |config|
   # Enable provisioning with a shell script. Additional provisioners such as
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
-  config.vm.provision "shell", inline: <<-SHELL
-    
-    #!/bin/bash
-
-    sudo apt-get -y update
-    sudo apt-get -y upgrade 
-    sudo apt-get -y install lamp-server^
-
-    if ! ls /vagrant/html > /dev/null 2> /dev/null
-      then
-        cp -r /var/www/html /vagrant      
-    fi
-    
-    sudo rm -r /var/www/html
-    ln -s /vagrant/html /var/www/html
-
-  SHELL
+  config.vm.provision "shell", path:"setup_lamp_server.sh"
 end
