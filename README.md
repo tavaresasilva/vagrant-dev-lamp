@@ -36,9 +36,9 @@ LAMP (Linux, Apache, MySQL,PHP) is an archetypal model of web service stacks, na
 > Run these commands on the terminal. This step can take a while
 
 ```
-$ git clone https://github.com/tavaresasilva/vagrant-dev-lamp.git
-$ cd vagrant-dev-lamp
-$ vagrant up
+git clone https://github.com/tavaresasilva/vagrant-dev-lamp.git
+cd vagrant-dev-lamp
+vagrant up
 ```
 
 ### Step 3
