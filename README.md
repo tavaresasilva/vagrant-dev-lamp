@@ -33,7 +33,7 @@ LAMP (Linux, Apache, MySQL,PHP) is an archetypal model of web service stacks, na
 3. [Install Vagrant](https://www.vagrantup.com/downloads.html)  
 
 ### Step 2
-> Execute the commands in the prompt. This step can take a while
+> Run these commands on the terminal. This step can take a while
 
 ```
 $ git clone https://github.com/tavaresasilva/vagrant-dev-lamp.git
