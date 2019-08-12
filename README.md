@@ -9,7 +9,7 @@ This project create a basic LAMP development environment using Vagrant and Virtu
 3. MySQL Ver 14.14 Distrib 5.7.27
 3. PHP Version 7.2.19
 
-## About Vagrant?
+## About Vagrant
 
 Vagrant is a tool for building and distributing development environments.
 
