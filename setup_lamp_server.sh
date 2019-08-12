@@ -11,3 +11,10 @@
     
   sudo rm -r /var/www/html
   ln -s /vagrant/html /var/www/html
+
+  # Enable https on server
+  sudo a2enmod rewrite
+  sudo a2enmod ssl
+  sudo systemctl restart apache2
+  sudo a2ensite default-ssl.conf
+  sudo systemctl restart apache2
