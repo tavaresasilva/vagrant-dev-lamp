@@ -16,5 +16,5 @@
   sudo a2enmod rewrite > /dev/null
   sudo a2enmod ssl > /dev/null
   sudo systemctl restart apache2
-  sudo a2ensite default-ssl.conf
+  sudo a2ensite default-ssl.conf > /dev/null
   sudo systemctl restart apache2
