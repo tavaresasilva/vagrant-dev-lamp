@@ -26,14 +26,14 @@ LAMP (Linux, Apache, MySQL,PHP) is an archetypal model of web service stacks, na
 ## How do I use this?
 
 ### Step 1
-> Install these packages first.
+> Install these packages first
 
 1. [Install Git](https://git-scm.com/downloads)
 2. [Install VirtualBox](https://www.virtualbox.org/wiki/Downloads)  
 3. [Install Vagrant](https://www.vagrantup.com/downloads.html)  
 
 ### Step 2
-> Execute the commands in the prompt. This step can take a while.
+> Execute the commands in the prompt. This step can take a while
 
 ```
 $ git clone https://github.com/tavaresasilva/vagrant-dev-lamp.git
