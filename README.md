@@ -1,4 +1,4 @@
-# LAMP Development environment with Vagrant and VirtualBox
+# LAMP development environment with Vagrant and VirtualBox
 
 This project create a basic LAMP development environment using Vagrant and VirtualBox.
 
