@@ -8,6 +8,7 @@ This project create a basic LAMP development environment using Vagrant and Virtu
 2. Apache/2.4.29 (Ubuntu)
 3. MySQL Ver 14.14 Distrib 5.7.27
 3. PHP Version 7.2.19
+4. phpMyAdmin Ver 4.6
 
 ## About Vagrant
 
