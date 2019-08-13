@@ -45,7 +45,7 @@ vagrant up
 ### Step 3
 > It's done
 
-Use the html directory to build your project and access [localhost](http://localhost) to see the work
+Use the html directory to build your project and access [localhost](http://localhost) to see the work. You can access phpmyadmin with vagrant default username and password.
 
 ## Vagrant Cheat Sheet
 
