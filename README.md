@@ -1,6 +1,6 @@
-# LAMP development environment with Vagrant and VirtualBox
+# LAMP (PHP) development environment with Vagrant and VirtualBox
 
-This project create a basic LAMP development environment using Vagrant and VirtualBox.
+This project create a basic LAMP (PHP) development environment using Vagrant and VirtualBox.
 
 ### This environment includes:
 
@@ -9,6 +9,11 @@ This project create a basic LAMP development environment using Vagrant and Virtu
 3. MySQL Ver 14.14 Distrib 5.7.27
 3. PHP Version 7.2.19
 4. phpMyAdmin Ver 4.6
+
+### Network
+
+forwarded_port, guest: 80, host: 80 - http://localhost
+forwarded_port, guest: 443, host: 443 - https://localhost
 
 ## About Vagrant
 
