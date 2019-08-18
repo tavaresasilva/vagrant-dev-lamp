@@ -12,8 +12,8 @@ This project create a basic LAMP (PHP) development environment using Vagrant and
 
 ### Network
 
-*forwarded_port, guest: 80, host: 80 - http://localhost
-*forwarded_port, guest: 443, host: 443 - https://localhost
+* forwarded_port, guest: 80, host: 80 - http://localhost
+* forwarded_port, guest: 443, host: 443 - https://localhost
 
 ## About Vagrant
 
