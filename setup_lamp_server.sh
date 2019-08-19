@@ -1,4 +1,8 @@
 #!/bin/bash
+# -------------------------------------------------------------------------------------
+# This script is part of vagrant-dev-lamp project that creates a LAMP dev environment.
+# Visit https://github.com/tavaresasilva/vagrant-dev-lamp for more information.
+# -------------------------------------------------------------------------------------
 
 DEFAULT_PHPMYAMDIN_PASS="vagrant"
 VAGRANT_SQL_USER="vagrant"
