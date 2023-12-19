@@ -10,7 +10,7 @@ VAGRANT_SQL_PASS="vagrant"
 
 # Update and install lamp server
 sudo apt-get -y update
-sudo apt-get -y upgrade
+#sudo apt-get -y upgrade
 sudo apt-get -y install lamp-server^
 
 # Checks if the html directory exists and creates a symbolic link on the web server
